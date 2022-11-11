@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 100%;
+
+    .components-container {
+        display: flex;
+
+        justify-content: center;
+        align-items: flex-start;
+
+        width: 100%;
+
+        padding-top: 10px;
+
+        background-color: black;
+
+        .cor {
+            height: 50vh;
+            width: 50%;
+
+            background-color: #333;
+
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

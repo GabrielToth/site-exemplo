@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .container-navigation {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        .item {
+
+            display: flex;
+            justify-content: center;
+            padding: 8px;
+            width: 100%;
+        }
+    }
+}
